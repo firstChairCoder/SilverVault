@@ -1,0 +1,24 @@
+{
+  "name": "expo-silvervault-biometrics",
+  "version": "1.0.0",
+  "description": "Hardware-backed biometric security module for SilverVault.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "expoProperty": "expo-silvervault-biometrics",
+  "keywords": [
+    "expo",
+    "react-native",
+    "biometrics",
+    "security",
+    "keychain",
+    "keystore"
+  ],
+  "peerDependencies": {
+    "expo": "*",
+    "expo-modules-core": "*"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
