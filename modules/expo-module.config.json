@@ -1,0 +1,10 @@
+{
+  "name": "expo-silvervault-biometrics",
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["SilverVaultBiometricsModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.silvervault.SilverVaultBiometricsModule"]
+  }
+}
