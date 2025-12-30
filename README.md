@@ -31,6 +31,7 @@ This project was built to demonstrate readiness for **high-trust, high-impact mo
 
 ## 🏗 Architecture Overview
 
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                 React Native UI Layer                   │
 │         (Accessibility-First Styled Components)         │
@@ -55,7 +56,7 @@ This project was built to demonstrate readiness for **high-trust, high-impact mo
 │        iOS Keychain        │      Android Keystore      │
 │      (Secure Enclave)      │     (TEE / StrongBox)      │
 └────────────────────────────┴────────────────────────────┘
-
+```
 
 📌 **Design Principle:**  
 > Encryption keys never cross the JavaScript bridge in plaintext.
